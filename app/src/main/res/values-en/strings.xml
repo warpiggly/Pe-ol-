@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">Our Hotels </string>
+    <string name="descripcionhomehoteles">our hotels are the best</string>
+    <string name="botonhomehoteles">looking for Hoteles</string>
+
+    <string name="tituloresta">Restaurants in El Peñol</string>
+    <string name="descripcionresta">In our village you will find Restaurant from 35000 COP
+        to luxurious cabins equipped with all the elements for a restorative meal. Visit</string>
+    <string name="botonhomeresta">Vew Restaurants</string>
+
+    <string name="titulositios">Sites in El Peñol</string>
+    <string name="descripcionsitios">In our village you will find beautiful places
+        to luxurious waterfalls equipped with all the elements to promote a restorative rest. Visit</string>
+    <string name="botonhomesitios">Vew sites</string>
+
+    <string name="tituloaserca">Our Village</string>
+    <string name="descripcionaserca">Is a veautiful Village</string>
+
+    <string name="titulores">about us</string>
+    <string name="descripcionres">I am a student and I don't know if this is going to work, because the emulator doesn't start xd.  </string>
+
+    <string name="menuopcion1">English</string>
+    <string name="menuopcion2">Spanish</string>
+    <string name="menuopcion3">Italian</string>
+    <string name="menuopcion4">Review</string>
+    <string name="menuopcion5">About us</string>
+
+
+
+</resources>

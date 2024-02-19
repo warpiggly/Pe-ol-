@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">Hoteles en el Peñol</string>
+    <string name="descripcionhomehoteles">En nuestro pueblo encontrara alojamientos desde 35000 COP
+        hasta lujosas cabañas dotadas de todos los elementos para promover un descanso restauradordor. Visitanos</string>
+    <string name="botonhomehoteles">Ver Hoteles</string>
+
+    <string name="tituloresta">Restaurnates en el Peñol</string>
+    <string name="descripcionresta">En nuestro pueblo encontrara Restaurante desde 35000 COP
+        hasta lujosas cabañas dotadas de todos los elementos para una comida restauradordor. Visitanos</string>
+    <string name="botonhomeresta">Ver Restaurantes</string>
+
+    <string name="titulositios">Sitios en el Peñol</string>
+    <string name="descripcionsitios">En nuestro pueblo encontrara Sitio hermosos
+        hasta lujosas cascadas dotadas de todos los elementos para promover un descanso restauradordor. Visitanos</string>
+    <string name="botonhomesitios">Ver Sitios</string>
+
+
+    <string name="tituloaserca">Nuestro Pueblo</string>
+    <string name="descripcionaserca">Es un pueblo muy hermoso </string>
+
+    <string name="titulores">Quienes somos</string>
+    <string name="descripcionres">Soy un estudiante que no se si esto va a funcionar , por que no arranca el emulador xd.  </string>
+
+    <string name="menuopcion1">Ingles</string>
+    <string name="menuopcion2">Español</string>
+    <string name="menuopcion3">Italiano</string>
+    <string name="menuopcion4">Reseña</string>
+    <string name="menuopcion5">Acerca de</string>
+
+
+</resources>

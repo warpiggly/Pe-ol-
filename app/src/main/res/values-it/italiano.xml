@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">I nostri hotel </string>
+    <string name="descriptionhomehoteles">i nostri hotel sono i migliori</string>
+    <string name="buttonhomehoteles">cerco hotel</string>
+
+    <string name="tituloresta">Ristoranti a El Peñol</string>
+    <string name="descripcionresta">Nel nostro villaggio troverai Ristorante da 35000 COP
+             alle lussuose cabine dotate di tutti gli elementi per un pasto rigenerante. Visita</string>
+    <string name="buttonhomerest">Visualizza ristoranti</string>
+
+    <string name="titulositios">Siti a El Peñol</string>
+    <string name="descripcionsitios">Nel nostro villaggio troverai posti bellissimi
+             a lussuose cascate dotate di tutti gli elementi per favorire un riposo ristoratore. Visita</string>
+    <string name="botonhomesitios">Visualizza siti</string>
+
+    <string name="menuopcion1">Inglese</string>
+    <string name="menuopcion2">Spagnolo</string>
+    <string name="menuopcion3">Italiano</string>
+    <string name="menuoption4">Rivedi</string>
+    <string name="menuopcion5">Chi siamo</string>
+</resources>
