@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        audio=MediaPlayer.create(this,R.raw.Octavio);
+        audio=MediaPlayer.create(this,R.raw.octavio);
         audio.start();
 
         //crear un delay de tiempo para lanzar la app
