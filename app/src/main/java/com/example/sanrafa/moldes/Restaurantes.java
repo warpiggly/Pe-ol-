@@ -1,25 +1,28 @@
 package com.example.sanrafa.moldes;
 
-public class Restaurante {
+import java.io.Serializable;
+
+public class Restaurante implements Serializable {
     private String nombre;
     private String precio;
     private String descripcion;
     private String telefono;
     private String direccion;
-    private String calificaicones;
-    private Integer fotoGrafia;
+    private Integer calificacion;
 
-    public Restaurante() {
+    private Integer fotografia;
+
+    public void Restaurante() {
     }
 
-    public Restaurante(String nombre, String precio, String descripcion, String telefono, String direccion, String calificaicones, Integer fotoGrafia) {
+    public Restaurante(String nombre, String precio, String descripcion, String telefono, String direccion, Integer calificacion, Integer fotografia) {
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;
         this.telefono = telefono;
         this.direccion = direccion;
-        this.calificaicones = calificaicones;
-        this.fotoGrafia = fotoGrafia;
+        this.calificacion = calificacion;
+        this.fotografia = fotografia;
     }
 
     public String getNombre() {
@@ -62,19 +65,19 @@ public class Restaurante {
         this.direccion = direccion;
     }
 
-    public String getCalificaicones() {
-        return calificaicones;
+    public Integer getCalificacion() {
+        return calificacion;
     }
 
-    public void setCalificaicones(String calificaicones) {
-        this.calificaicones = calificaicones;
+    public void setCalificacion(Integer calificacion) {
+        this.calificacion = calificacion;
     }
 
-    public Integer getFotoGrafia() {
-        return fotoGrafia;
+    public Integer getFotografia() {
+        return fotografia;
     }
 
-    public void setFotoGrafia(Integer fotoGrafia) {
-        this.fotoGrafia = fotoGrafia;
+    public void setFotografia(Integer fotografia) {
+        this.fotografia = fotografia;
     }
 }
