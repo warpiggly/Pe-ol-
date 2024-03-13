@@ -44,7 +44,7 @@ public class SitiosAmpliados extends AppCompatActivity {
 
         titulositios.setText(datossitios.getNombre());
         imagenSitios.setImageResource(datossitios.getFotografia());
-        Calificacion.setText(datossitios.getCalificacion());
+        Calificacion.setText(Integer.toString(datossitios.getCalificacion()));
         Telefono.setText(datossitios.getTelefeno());
         Descripcion.setText(datossitios.getDescripcion());
         Direccion.setText(datossitios.getDireccion());
