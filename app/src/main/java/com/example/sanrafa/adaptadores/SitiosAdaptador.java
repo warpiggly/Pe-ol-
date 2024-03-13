@@ -33,13 +33,13 @@ public class SitiosAdaptador extends RecyclerView.Adapter<SitiosAdaptador.viewHo
 
     @NonNull
     @Override
-    public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public SitiosAdaptador.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.moldesitios,null,false);
         return new viewHolder(vista);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull viewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull SitiosAdaptador.viewHolder holder, int position) {
         holder.pintarMolde(listaSitios.get(position));
 
     }

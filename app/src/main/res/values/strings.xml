@@ -1,32 +1,55 @@
 <resources>
-    <string name="app_name">SanRafa</string>
+    <string name="app_name">El Peñol</string>
+
+    <string name="botonHoteles">Hoteles</string>
+    <string name="botonRestaurantes">Restaurantes</string>
+    <string name="botonSitios">Sitios turisticos</string>
+
     <string name="titulohomehoteles">Hoteles en el Peñol</string>
-    <string name="descripcionhomehoteles">En nuestro pueblo encontrara alojamientos desde 35000 COP
-        hasta lujosas cabañas dotadas de todos los elementos para promover un descanso restauradordor. Visitanos</string>
-    <string name="botonhomehoteles">Ver Hoteles</string>
+    <string name="descripcionhomehoteles">En nuestro pueblo encontraras desde 35000 COP hasta las
+        lujosas cabañas dotadas de todos los elementos para promover un descanso restaurador</string>
+    <string name="botonhomehoteles">Ver hoteles</string>
 
-    <string name="tituloresta">Restaurnates en el Peñol</string>
-    <string name="descripcionresta">En nuestro pueblo encontrara Restaurante desde 35000 COP
-        hasta lujosas cabañas dotadas de todos los elementos para una comida restauradordor. Visitanos</string>
-    <string name="botonhomeresta">Ver Restaurantes</string>
+    <string name="titulohomerestaurantes">Restaurantes en el Peñol</string>
+    <string name="descripcionrestaurantes">Debido a que el departamento de Antioquia integra sabores
+        de diferentes partes del mundo y la variedad de insumos locales para a su cocina, se puede
+        asegurar que los visitantes quedarán enamorados de la culinaria Antioquia. </string>
+    <string name="botonhomerestaurantes">Ver Restaurantes</string>
 
-    <string name="titulositios">Sitios en el Peñol</string>
-    <string name="descripcionsitios">En nuestro pueblo encontrara Sitio hermosos
-        hasta lujosas cascadas dotadas de todos los elementos para promover un descanso restauradordor. Visitanos</string>
-    <string name="botonhomesitios">Ver Sitios</string>
+    <string name="nombre">David Salazar Saldarriaga</string>
+    <string name="acercaDe">Musico, programador  y actualmente
+en proceso de formación como Técnico en
+Desarrollo de Software. Combino la creatividad
+visual con conocimientos técnicos para crear
+experiencias únicas. Mi perl abarca desde el
 
+diseño gráco hasta la programación, destacán-
+dome en el área de desarrollo Front end. Poseo
 
-    <string name="tituloaserca">Nuestro Pueblo</string>
-    <string name="descripcionaserca">Es un pueblo muy hermoso </string>
+competencias laborales de dinamismo, creativi-
+dad y atención al detalle, fundamentales para
 
-    <string name="titulores">Quienes somos</string>
-    <string name="descripcionres">Soy un estudiante que no se si esto va a funcionar , por que no arranca el emulador xd.  </string>
+impulsar proyectos hacia el siguiente nivel.</string>
 
-    <string name="menuopcion1">Ingles</string>
-    <string name="menuopcion2">Español</string>
-    <string name="menuopcion3">Italiano</string>
-    <string name="menuopcion4">Reseña</string>
-    <string name="menuopcion5">Acerca de</string>
+    <string name="titulohomesitios">Sitios Turisticos</string>
+    <string name="descripcionresitios">
+        La quietud de los cielos azules y despejados de la península de Antioquia,
+        zona Hermosa del nororiente colombiano, se ve interrumpida por arreboles de un rosado intenso que se disuelven
+        en espirales sobre las lagunas del Peñol y Fauna Los animales. </string>
+
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Francés</string>
+    <string name="opcion4">Reseña</string>
+    <string name="opcion5">Acerca de</string>
+
+    <string name="titulohomeresena2">Historia de el Peñol </string>
+
+    <string name="historiamanaure">El pueblo original fue fundado el 20 de junio de 1714 por Fray Miguel de Castro y Rivadeneiro, y erigido como municipio en 1774. Dista 69 kilómetros de Medellín, capital del departamento de Antioquia.
+
+            Sus apelativos tradicionales son "Tierra de Agua" y "El Ave Fénix de Antioquia".
+
+            El Peñol cuenta con 23 veredas, como: Despensas, La Magdalena, El Marial, La Chapa, Palmira, Santa Ana, El Salto, Santa Inés, Horizontes, El Morro, Guamito, El Carmelo, La Hélida, Concordia, La Meseta, Chiquinquirá, El Chilco, Bonilla, La Culebra, Palestina, La Cristalina, La Magdalena, El Uvital. Se comunica por carretera con Guatapé, Granada, El Santuario y Marinilla.</string>
 
 
 </resources>

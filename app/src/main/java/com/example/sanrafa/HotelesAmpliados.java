@@ -39,8 +39,8 @@ public class HotelesAmpliados extends AppCompatActivity {
         datoshotel=(Hotel)getIntent().getSerializableExtra("datoshotel");
         Toast.makeText(this, datoshotel.getNombre(), Toast.LENGTH_SHORT).show();
         tituloHotel.setText(datoshotel.getNombre());
-        imagenHotel.setImageResource(datoshotel.getFotoGrafia());
-        Calificacion.setText(Integer.toString(datoshotel.getCalificaicon()));
+        imagenHotel.setImageResource(datoshotel.getFotografia());
+        Calificacion.setText(Integer.toString(datoshotel.getCalificacion()));
         Telefono.setText((datoshotel.getTelefono()));
         Descripcion.setText(datoshotel.getDescripcion());
         Precio.setText(datoshotel.getPrecio());

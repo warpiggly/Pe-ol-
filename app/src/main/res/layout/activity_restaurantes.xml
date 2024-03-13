@@ -4,74 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blanchedalmond"
     tools:context=".Restaurantes">
 
-
     <ImageView
-        android:id="@+id/bannerhoteles"
+        android:id="@+id/bannerRestaurante"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/sitios"
-        android:adjustViewBounds="true" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/res5"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0"
 
+        />
     <TextView
-        android:id="@+id/titulohomehoteles"
+        android:id="@+id/titulohomerestaurantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/bannerhoteles"
+        app:layout_constraintTop_toBottomOf="@id/bannerRestaurante"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/tituloresta"
+        android:text="@string/titulohomerestaurantes"
         android:textAlignment="center"
         android:textSize="28dp"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.05"
-        />
-
-    <TextView
-        android:id="@+id/descripcionhoteles"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titulohomehoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/descripcionresta"
-        android:textAlignment="center"
-        android:textSize="20dp"
         app:layout_constraintVertical_bias="0.1"
         />
 
-    <ImageView
-        android:id="@+id/manohoteles"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/descripcionrestaurantes"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/mano"
-        app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
+        app:layout_constraintTop_toBottomOf="@id/titulohomerestaurantes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionrestaurantes"
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/manorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/mano"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintVertical_bias="0.3"
         />
-
     <Button
-        android:id="@+id/botonhomehoteles"
-        android:layout_width="150dp"
+        android:id="@+id/botonhomerestaurantes"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
-        app:layout_constraintStart_toEndOf="@id/manohoteles"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
+        app:layout_constraintStart_toEndOf="@id/manorestaurantes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.3"
-        app:layout_constraintHorizontal_bias="0.3"
-        android:backgroundTint="@color/gray"
-        android:text="@string/botonhomeresta"
-
+        app:layout_constraintHorizontal_bias="0.4"
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonhomerestaurantes"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

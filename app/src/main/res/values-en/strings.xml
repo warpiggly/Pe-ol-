@@ -1,32 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="botonHoteles">Hotels</string>
+    <string name="botonRestaurantes">Restaurants</string>
+    <string name="botonSitios">tourist sites</string>
+
     <string name="app_name">SanRafa</string>
-    <string name="titulohomehoteles">Our Hotels </string>
-    <string name="descripcionhomehoteles">our hotels are the best</string>
-    <string name="botonhomehoteles">looking for Hoteles</string>
+    <string name="titulohomehoteles">Hotels in Peñol</string>
+    <string name="descripcionhomehoteles">In our town, you will find accommodations ranging from 35000 COP
+        to luxurious cabins equipped with all the elements to promote a restorative rest.</string>
+    <string name="botonhomehoteles">See hoteles</string>
 
-    <string name="tituloresta">Restaurants in El Peñol</string>
-    <string name="descripcionresta">In our village you will find Restaurant from 35000 COP
-        to luxurious cabins equipped with all the elements for a restorative meal. Visit</string>
-    <string name="botonhomeresta">Vew Restaurants</string>
+    <string name="titulohomerestaurantes">Restaurants in Peñol</string>
+    <string name="descripcionrestaurantes">Due to Antioquia department integrating flavours from different
+        parts of the world and the variety of local ingredients for its cuisine, it can be ensured
+        that visitors will fall in love with Antioquia culinary delights. </string>
+    <string name="botonhomerestaurantes">see Restaurants</string>
 
-    <string name="titulositios">Sites in El Peñol</string>
-    <string name="descripcionsitios">In our village you will find beautiful places
-        to luxurious waterfalls equipped with all the elements to promote a restorative rest. Visit</string>
-    <string name="botonhomesitios">Vew sites</string>
+    <string name="titulohomesitios">tourist sites</string>
+    <string name="descripcionresitios">The stillness of the blue and clear skies of the Antiquia peninsula,
+      area of northeastern Colombia, is interrupted by bright pink flowers that dissolve
+        in spirals over the lagoons . </string>
 
-    <string name="tituloaserca">Our Village</string>
-    <string name="descripcionaserca">Is a veautiful Village</string>
+    <string name="nombre">David Salzar Saldarriaga</string>
+    <string name="acercaDe">Musico y programador y actualmente
+en proceso de formación como Técnico en
+Desarrollo de Software. Combino la creatividad
+visual con conocimientos técnicos para crear
+experiencias únicas. Mi perl abarca desde el
 
-    <string name="titulores">about us</string>
-    <string name="descripcionres">I am a student and I dont know if this is going to work, because the emulator doesnt start xd.  </string>
+diseño gráco hasta la programación, destacán-
+dome en el área de desarrollo Front end. Poseo
 
-    <string name="menuopcion1">English</string>
-    <string name="menuopcion2">Spanish</string>
-    <string name="menuopcion3">Italian</string>
-    <string name="menuopcion4">Review</string>
-    <string name="menuopcion5">About us</string>
+competencias laborales de dinamismo, creativi-
+dad y atención al detalle, fundamentales para
 
+impulsar proyectos hacia el siguiente nivel.</string>
 
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">French</string>
+    <string name="opcion4">Review</string>
+    <string name="opcion5">About us</string>
 
+    <string name="titulohomeresena2">History of El Peñol </string>
+
+    <string name="historiamanaure">"According to oral tradition, Peñol owes its name to the radiance
+        of a high-born indigenous individual who bequeathed his name to this geographical site.
+        According to research, indeed, in the neighboring Republic of Venezuela, there was an indigenous
+        chief of the Caquetío tribe with much prestige who went by the name of Peñol. Initially,
+        this indigenous person was very friendly with the conquistadors and the evangelizers,
+        but later he confronted the Spaniards and in 1821 was assassinated by Morillos army.
+
+        The Municipality of Peñol was created by ordinance 015 of 1973, which began to take effect
+        on October 1, 1974. This date is institutionalized to celebrate Peña anniversary.
+        This ordinance project was presented by Peña son and deputy, Manuel Mengual Meza,
+        and was sanctioned by Dr. Benjamín Armenta López, Governor of the Department of Antioquia.</string>
 </resources>

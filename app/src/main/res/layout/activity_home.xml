@@ -4,77 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/Fondo1"
     tools:context=".Home">
 
-    <ImageView
-        android:id="@+id/imagenhome"
-        android:layout_width="227dp"
-        android:layout_height="218dp"
-        android:src="@drawable/logo1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
 
     <TextView
         android:id="@+id/titulohome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/imagenhome"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="El Peñol"
         android:textSize="28dp"
+        android:textColor="@color/burlywood"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_bias="0.02"
         />
-
     <Button
-        android:id="@+id/botonhoteles"
+        android:id="@+id/botonHoteles"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/titulohome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintVertical_bias="0.6"
         android:layout_marginHorizontal="20dp"
-        android:backgroundTint="@color/gray"
-        android:text="Hoteles"
-        android:textColor="@color/black"/>
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonHoteles"
 
+        />
     <Button
-        android:id="@+id/botonrestaurantes"
+        android:id="@+id/botonRestaurantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/botonhoteles"
+        app:layout_constraintTop_toBottomOf="@id/botonHoteles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.1"
         android:layout_marginHorizontal="20dp"
-        android:backgroundTint="@color/gray"
-        android:text="Restaurantes"
-        android:textColor="@color/black"/>
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonRestaurantes"
 
+        />
     <Button
-        android:id="@+id/botonsitios"
+        android:id="@+id/botonSitios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/botonRestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
         android:layout_marginHorizontal="20dp"
-        android:backgroundTint="@color/gray"
-        android:text="Sitios turisticos"
-        android:textColor="@color/black"
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonSitios"
+
+        />
+
+    <ImageView
+        android:id="@+id/imagehome"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hotel3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintVertical_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/botonrestaurantes"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@id/botonSitios"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

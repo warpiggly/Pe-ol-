@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blanchedalmond"
     tools:context=".Hoteles">
 
     <ImageView
-        android:id="@+id/bannerhoteles"
+        android:id="@+id/bannerHotel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:src="@drawable/hotel"
-        android:adjustViewBounds="true" />
-
+        android:adjustViewBounds="true"
+        />
     <TextView
         android:id="@+id/titulohomehoteles"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/bannerhoteles"
+        app:layout_constraintTop_toBottomOf="@id/bannerHotel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +31,6 @@
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.05"
         />
-
     <TextView
         android:id="@+id/descripcionhoteles"
         android:layout_width="match_parent"
@@ -44,7 +44,6 @@
         android:textSize="20dp"
         app:layout_constraintVertical_bias="0.1"
         />
-
     <ImageView
         android:id="@+id/manohoteles"
         android:layout_width="wrap_content"
@@ -60,17 +59,16 @@
 
     <Button
         android:id="@+id/botonhomehoteles"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
         app:layout_constraintStart_toEndOf="@id/manohoteles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.3"
-        app:layout_constraintHorizontal_bias="0.3"
-        android:backgroundTint="@color/gray"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:backgroundTint="@color/brown"
         android:text="@string/botonhomehoteles"
-
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

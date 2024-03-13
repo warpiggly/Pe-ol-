@@ -8,20 +8,21 @@ public class Hotel implements Serializable {
     private String descripcion;
     private String telefono;
     private String direccion;
-    private String calificaicones;
-    private Integer fotoGrafia;
+    private Integer calificacion;
+
+    private Integer fotografia;
 
     public Hotel() {
     }
 
-    public Hotel(String nombre, String precio, String descripcion, String telefono, String direccion, String calificaicones, Integer fotoGrafia) {
+    public Hotel(String nombre, String precio, String descripcion, String telefono, String direccion, Integer calificacion, Integer fotografia) {
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;
         this.telefono = telefono;
         this.direccion = direccion;
-        this.calificaicones = calificaicones;
-        this.fotoGrafia = fotoGrafia;
+        this.calificacion = calificacion;
+        this.fotografia = fotografia;
     }
 
     public String getNombre() {
@@ -64,19 +65,19 @@ public class Hotel implements Serializable {
         this.direccion = direccion;
     }
 
-    public String getCalificaicones() {
-        return calificaicones;
+    public Integer getCalificacion() {
+        return calificacion;
     }
 
-    public void setCalificaicones(String calificaicones) {
-        this.calificaicones = calificaicones;
+    public void setCalificacion(Integer calificacion) {
+        this.calificacion = calificacion;
     }
 
-    public Integer getFotoGrafia() {
-        return fotoGrafia;
+    public Integer getFotografia() {
+        return fotografia;
     }
 
-    public void setFotoGrafia(Integer fotoGrafia) {
-        this.fotoGrafia = fotoGrafia;
+    public void setFotografia(Integer fotografia) {
+        this.fotografia = fotografia;
     }
 }

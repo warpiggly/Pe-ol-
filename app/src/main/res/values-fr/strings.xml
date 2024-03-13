@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="botonHoteles">Hôtels</string>
+    <string name="botonRestaurantes">Restaurants</string>
+    <string name="botonSitios">sites touristiques</string>
+
+    <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">"Hotels à Peñol</string>
+    <string name="descripcionhomehoteles">Dans notre village, vous trouverez des logements allant de 35 000 COP
+        aux luxueuses cabanes équipées de tous les éléments pour favoriser un repos réparateur</string>
+    <string name="botonhomehoteles">See hoteles</string>
+
+    <string name="titulohomerestaurantes">Restaurants à Peñol</string>
+    <string name="descripcionrestaurantes">"En raison de la diversité des saveurs provenant de différentes
+        parties du monde ainsi que de la variété des ingrédients locaux utilisés dans sa cuisine,
+        il est possible d'affirmer que les visiteurs tomberont amoureux de la cuisine Antioquia.</string>
+    <string name="botonhomerestaurantes">voir les restaurants</string>
+
+    <string name="titulohomesitios">sites touristiques</string>
+    <string name="descripcionresitios">Parce que le département de La Antioquia intègre les saveurs
+         provenant de différentes parties du monde et la variété des intrants locaux pour votre cuisine, vous pouvez
+         assurez-vous que les visiteurs tomberont amoureux de la cuisine de Antioquia.</string>
+
+    <string name="nombre">David Salazar Saldarriaga</string>
+    <string name="acercaDe">Musico Y programador y actualmente
+en proceso de formación como Técnico en
+Desarrollo de Software. Combino la creatividad
+visual con conocimientos técnicos para crear
+experiencias únicas. Mi perl abarca desde el
+
+diseño gráco hasta la programación, destacán-
+dome en el área de desarrollo Front end. Poseo
+
+competencias laborales de dinamismo, creativi-
+dad y atención al detalle, fundamentales para
+
+impulsar proyectos hacia el siguiente nivel.</string>
+
+    <string name="opcion1">Anglais</string>
+    <string name="opcion2">Espagnol</string>
+    <string name="opcion3"> Français</string>
+    <string name="opcion4">Revue</string>
+    <string name="opcion5">À propos de nous</string>
+
+    <string name="titulohomeresena2">Histoire de el Peñol </string>
+
+    <string name="historiamanaure">
+        Selon la tradition orale, Peñol doit son nom à la radiance
+        dun individu indigène de haute naissance qui a légué son nom à ce site géographique.
+        Selon les recherches, en effet, dans la République voisine du Venezuela, il y avait un chef indigène
+        de la tribu Caquetío avec beaucoup de prestige qui répondait au nom de Peñol. Initialement,
+        cet indigène était très amical avec les conquistadors et les évangélisateurs,
+        mais plus tard il a affronté les Espagnols et en 1821 a été assassiné par larmée de Morillo.
+
+        La municipalité de Manaure a été créée par lordonnance 015 de 1973, qui a commencé à prendre effet
+        le 1er octobre 1974. Cette date est institutionnalisée pour célébrer lanniversaire de Peñol.
+        Ce projet dordonnance a été présenté par le fils et député de Peñol, Manuel Mengual Meza,
+        et a été sanctionné par le Dr. Benjamín Armenta López, gouverneur du département de La Guajira.
+    </string>
+</resources>

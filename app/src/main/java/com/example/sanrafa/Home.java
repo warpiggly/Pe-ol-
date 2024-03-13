@@ -15,97 +15,104 @@ import java.util.Locale;
 
 public class Home extends AppCompatActivity {
 
-    //ATRIBUTOS PARA REFERENCIAS ELEMENTOS GRAFICOS
-    //QUE TENGO YO EN EL XML QUE QUIERO CONTROLAR EN JAVA
-    Button botonHoteles;
-    Button botonRestaurantes;
-    Button botonSitios;
+   // Atributos para referencias elementos gráficos.
+    // Que tengo yo en el .xml que quiero controlar en java
+
+    Button BotonHoteles;
+    Button BotonRestaurantes;
+    Button BotonSitios;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        //asociar las variables creadas con los ID de los
-        //elementos que vienen desde XML
-        botonHoteles=findViewById(R.id.botonhoteles);
-        botonRestaurantes=findViewById(R.id.botonrestaurantes);
-        botonSitios=findViewById(R.id.botonsitios);
+        //Asociar las variables creadas con los Id de los elementos que vienen desde .xml
 
-        //Escuchar eventos (clic en los botones)
-        botonHoteles.setOnClickListener(new View.OnClickListener() {
+        BotonHoteles=findViewById(R.id.botonHoteles);
+        BotonRestaurantes=findViewById(R.id.botonRestaurantes);
+        BotonSitios=findViewById(R.id.botonSitios);
+
+        //Escuchar eventos (click en los botones)
+        BotonHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //aca escribo lo que quiera hacer cuando presionen el boton
-                //Toast.makeText(Home.this, "hizo clic en hoteles", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Home.this,Hoteles.class);
+                //Acá escribo lo que quiera hacer presionen el botón.
+
+                Toast.makeText(Home.this, "Hizo click en Hoteles", Toast.LENGTH_SHORT).show();
+                Intent intent =  new Intent(Home.this, Hoteles.class);
                 startActivity(intent);
             }
         });
 
-        botonRestaurantes.setOnClickListener(new View.OnClickListener() {
+        BotonRestaurantes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Restaurantes.class);
+                Toast.makeText(Home.this, "Hizo click en Restaurantes", Toast.LENGTH_SHORT).show();
+                Intent intent =  new Intent(Home.this, Restaurantes.class);
                 startActivity(intent);
             }
         });
 
-        botonSitios.setOnClickListener(new View.OnClickListener() {
+        BotonSitios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Sitios.class);
+                Toast.makeText(Home.this, "Hizo click en Sitios Turisticos", Toast.LENGTH_SHORT).show();
+                Intent intent =  new Intent(Home.this, Sitios.class);
                 startActivity(intent);
             }
         });
-
 
 
     }
-
-    //cargar el menu de opcion deseado
+    //Cargar el menú de opciones deseado
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu,menu);
         return true;
     }
 
-    //Que hago en cada opcion del menu
+    //Qué hago en cada opción del menú
     public boolean onOptionsItemSelected(MenuItem item){
-        int itemSeleccionado=item.getItemId();
+        int itemseleccionado=item.getItemId();
+     if (itemseleccionado==R.id.opcion1){
+        this.cambiarIdioma("en");
+        Intent intentIngles= new Intent(Home.this, Home.class);
+        startActivity(intentIngles);
 
-        if(itemSeleccionado==R.id.opcion1){
-            this.cambiarIdioma("en");
-            Intent intentIngles=new Intent(Home.this, Home.class);
-            startActivity(intentIngles);
-        }else if(itemSeleccionado==R.id.opcion2){
-            this.cambiarIdioma("es");
-            Intent intentIngles=new Intent(Home.this, Home.class);
-            startActivity(intentIngles);
-        }else if(itemSeleccionado==R.id.opcion3){
-            this.cambiarIdioma("it");
-            Intent intentResena = new Intent(Home.this, Resena.class);
-            startActivity(intentResena);
-        }else if(itemSeleccionado==R.id.opcion4){
-            Intent intent = new Intent(Home.this,Resena.class);
-            startActivity(intent);
-        }else if(itemSeleccionado==R.id.opcion5){
-            Intent intent = new Intent(Home.this,Acercade.class);
-            startActivity(intent);
-        }
-        return super.onOptionsItemSelected(item);
+     }else if(itemseleccionado==R.id.opcion2){
+         this.cambiarIdioma("es");
+         Intent intentIngles= new Intent(Home.this, Home.class);
+         startActivity(intentIngles);
+
+     } else if (itemseleccionado==R.id.opcion3) {
+         this.cambiarIdioma("fr");
+         Intent intentIngles= new Intent(Home.this, Home.class);
+         startActivity(intentIngles);
+
+
+     } else if (itemseleccionado==R.id.opcion4) {
+         Intent intentResena = new Intent(Home.this,Resena.class);
+         startActivity(intentResena);
+
+     } else if (itemseleccionado==R.id.opcion5) {
+         Toast.makeText(this, "Presiono opción 5", Toast.LENGTH_SHORT).show();
+
+     }
+     return super.onOptionsItemSelected(item);
     }
-
     public void cambiarIdioma(String idioma){
-        //configurar el idioma del telefono desde app
-        Locale lenguaje=new Locale(idioma);
+        //Configurar el idioma del telefono desde la app
+
+        Locale lenguaje= new Locale(idioma);
         Locale.setDefault(lenguaje);
 
-        //configuramos globalmente el telefono
+        //Configuramos globalmente el telefono
         Configuration configuracionTelefono=getResources().getConfiguration();
         configuracionTelefono.locale=lenguaje;
 
-        //Ejecuto la configuracion establecida
+        //Ejecuto la configuración establecida
         getBaseContext().getResources().updateConfiguration(configuracionTelefono,getBaseContext().getResources().getDisplayMetrics());
-    }
 
+    }
 }

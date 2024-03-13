@@ -12,14 +12,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.sanrafa.R;
 import com.example.sanrafa.RestaurantesAmpliados;
-import com.example.sanrafa.moldes.Restaurante;
 import com.example.sanrafa.moldes.Restaurantes;
 
 import java.util.ArrayList;
 
 public class RestauranteAdaptador extends RecyclerView.Adapter<RestauranteAdaptador.viewHolder> {
 
-    public ArrayList<Restaurante> listaRestaurantes;
+    public ArrayList<Restaurantes> listaRestaurantes;
     //constructor vacio
 
     public RestauranteAdaptador() {
@@ -27,19 +26,19 @@ public class RestauranteAdaptador extends RecyclerView.Adapter<RestauranteAdapta
 
     //constructor lleno
 
-    public RestauranteAdaptador(ArrayList<Restaurante> listaRestaurantes) {
+    public RestauranteAdaptador(ArrayList<Restaurantes> listaRestaurantes) {
         this.listaRestaurantes = listaRestaurantes;
     }
 
     @NonNull
     @Override
-    public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.molderestaurantes,null,false);
+    public RestauranteAdaptador.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.molderestaurante,null,false);
         return new viewHolder(vista);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull viewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RestauranteAdaptador.viewHolder holder, int position) {
         holder.pintarMolde(listaRestaurantes.get(position));
     }
 
@@ -57,13 +56,13 @@ public class RestauranteAdaptador extends RecyclerView.Adapter<RestauranteAdapta
         public viewHolder(@NonNull View itemView) {
             super(itemView);
             fotomolderestaurante=itemView.findViewById(R.id.fotomolderestaurante);
-            nombrerestaurantemolde=itemView.findViewById(R.id.nombrehotelmolde);
-            preciorestaurantemolde=itemView.findViewById(R.id.preciohotelmolde);
+            nombrerestaurantemolde=itemView.findViewById(R.id.nombrerestaurantemolde);
+            preciorestaurantemolde=itemView.findViewById(R.id.preciorestaurantemolde);
 
         }
 
-        public void pintarMolde(Restaurante restaurantes) {
-            fotomolderestaurante.setImageResource(restaurantes.getFotoGrafia());
+        public void pintarMolde(Restaurantes restaurantes) {
+            fotomolderestaurante.setImageResource(restaurantes.getFotografia());
             nombrerestaurantemolde.setText(restaurantes.getNombre());
             preciorestaurantemolde.setText(restaurantes.getPrecio());
 

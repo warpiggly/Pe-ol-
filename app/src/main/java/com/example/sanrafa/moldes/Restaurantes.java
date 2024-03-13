@@ -2,7 +2,7 @@ package com.example.sanrafa.moldes;
 
 import java.io.Serializable;
 
-public class Restaurante implements Serializable {
+public class Restaurantes implements Serializable {
     private String nombre;
     private String precio;
     private String descripcion;
@@ -12,10 +12,10 @@ public class Restaurante implements Serializable {
 
     private Integer fotografia;
 
-    public void Restaurante() {
+    public Restaurantes() {
     }
 
-    public Restaurante(String nombre, String precio, String descripcion, String telefono, String direccion, Integer calificacion, Integer fotografia) {
+    public Restaurantes(String nombre, String precio, String descripcion, String telefono, String direccion, Integer calificacion, Integer fotografia) {
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;

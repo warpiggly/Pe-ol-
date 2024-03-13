@@ -1,25 +1,32 @@
 package com.example.sanrafa.moldes;
 
-public class Sitios {
+import java.io.Serializable;
+
+public class Sitios implements Serializable {
     private String nombre;
-    private String precio;
-    private String descripcion;
-    private String telefono;
     private String direccion;
-    private String calificaicones;
-    private Integer fotoGrafia;
+    private String horario;
+    private String descripcion;
+    private String precio;
+    private String recomendaciones;
+    private String telefeno;
+    private Integer calificacion;
+
+    private Integer fotografia;
 
     public Sitios() {
     }
 
-    public Sitios(String nombre, String precio, String descripcion, String telefono, String direccion, String calificaicones, Integer fotoGrafia) {
+    public Sitios(String nombre, String direccion, String horario, String descripcion, String precio, String recomendaciones, String telefeno, Integer calificacion, Integer fotografia) {
         this.nombre = nombre;
-        this.precio = precio;
-        this.descripcion = descripcion;
-        this.telefono = telefono;
         this.direccion = direccion;
-        this.calificaicones = calificaicones;
-        this.fotoGrafia = fotoGrafia;
+        this.horario = horario;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.recomendaciones = recomendaciones;
+        this.telefeno = telefeno;
+        this.calificacion = calificacion;
+        this.fotografia = fotografia;
     }
 
     public String getNombre() {
@@ -30,12 +37,20 @@ public class Sitios {
         this.nombre = nombre;
     }
 
-    public String getPrecio() {
-        return precio;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setPrecio(String precio) {
-        this.precio = precio;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getHorario() {
+        return horario;
+    }
+
+    public void setHorario(String horario) {
+        this.horario = horario;
     }
 
     public String getDescripcion() {
@@ -46,35 +61,43 @@ public class Sitios {
         this.descripcion = descripcion;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public String getPrecio() {
+        return precio;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public void setPrecio(String precio) {
+        this.precio = precio;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getRecomendaciones() {
+        return recomendaciones;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setRecomendaciones(String recomendaciones) {
+        this.recomendaciones = recomendaciones;
     }
 
-    public String getCalificaicones() {
-        return calificaicones;
+    public String getTelefeno() {
+        return telefeno;
     }
 
-    public void setCalificaicones(String calificaicones) {
-        this.calificaicones = calificaicones;
+    public void setTelefeno(String telefeno) {
+        this.telefeno = telefeno;
     }
 
-    public Integer getFotoGrafia() {
-        return fotoGrafia;
+    public Integer getCalificacion() {
+        return calificacion;
     }
 
-    public void setFotoGrafia(Integer fotoGrafia) {
-        this.fotoGrafia = fotoGrafia;
+    public void setCalificacion(Integer calificacion) {
+        this.calificacion = calificacion;
+    }
+
+    public Integer getFotografia() {
+        return fotografia;
+    }
+
+    public void setFotografia(Integer fotografia) {
+        this.fotografia = fotografia;
     }
 }

@@ -4,73 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blanchedalmond"
     tools:context=".Sitios">
 
     <ImageView
-        android:id="@+id/bannerhoteles"
+        android:id="@+id/bannersitios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/lugares"
-        android:adjustViewBounds="true" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/sitios"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0"
+        />
     <TextView
-        android:id="@+id/titulohomehoteles"
+        android:id="@+id/titulohomeSitios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/bannerhoteles"
+        app:layout_constraintTop_toBottomOf="@id/bannersitios"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/titulositios"
+        android:text="@string/titulohomesitios"
         android:textAlignment="center"
         android:textSize="28dp"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintVertical_bias="0.02"
         />
-
     <TextView
-        android:id="@+id/descripcionhoteles"
+        android:id="@+id/descripcionsitios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/descripcionsitios"
+        app:layout_constraintTop_toBottomOf="@id/titulohomeSitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionresitios"
         android:textAlignment="center"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titulohomehoteles"
-        app:layout_constraintVertical_bias="0.092" />
-
+        app:layout_constraintVertical_bias="0.02"
+        android:paddingHorizontal="15dp"
+        />
     <ImageView
-        android:id="@+id/manohoteles"
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/santuario"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0.1"
+        />
+    <ImageView
+        android:id="@+id/manorestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/mano"
-        app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
+        app:layout_constraintTop_toBottomOf="@id/foto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/mano"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintVertical_bias="0.3"
         />
-
     <Button
-        android:id="@+id/botonhomehoteles"
-        android:layout_width="150dp"
+        android:id="@+id/botonhomesitios"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
-        app:layout_constraintStart_toEndOf="@id/manohoteles"
+        app:layout_constraintTop_toBottomOf="@id/foto"
+        app:layout_constraintStart_toEndOf="@id/manorestaurantes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.3"
-        app:layout_constraintHorizontal_bias="0.3"
-        android:backgroundTint="@color/gray"
-        android:text="@string/botonhomesitios"
-
+        app:layout_constraintHorizontal_bias="0.4"
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonSitios"
         />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

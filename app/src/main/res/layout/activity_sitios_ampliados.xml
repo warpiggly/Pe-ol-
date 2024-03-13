@@ -5,5 +5,123 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SitiosAmpliados">
+    <TextView
+        android:id="@+id/tituloampliadositios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="TITULO PRUEBA"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.02"
+        />
+    <ImageView
+        android:id="@+id/fotoampliandositios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tituloampliadositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:src="@drawable/hotel5"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:id="@+id/calificacionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calificación: 5"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintVertical_bias="0.02"
+        />
+    <TextView
+        android:id="@+id/telefonositios"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
+        app:layout_constraintStart_toEndOf="@id/calificacionsitios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/descripcionsitios"
+        android:text="Nuestas lineas de Atención son: 3207205878 - 3004569978 "
+        app:layout_constraintVertical_bias="0.5"
+        android:textAlignment="center"
+
+
+        />
+    <TextView
+        android:id="@+id/descripcionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/calificacionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="espacio para la descrippción"
+        android:paddingHorizontal="30dp"
+        app:layout_constraintVertical_bias="0.1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/direccionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:text="El hotel queda a 25km del Aerepuerto de Rioacha"
+        android:textStyle="italic"
+
+
+
+        />
+    <TextView
+        android:id="@+id/preciositios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/direccionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Platos desde $30.000 COP"
+        app:layout_constraintVertical_bias="0.2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Horariositios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/preciositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Horario de atención: "
+        app:layout_constraintVertical_bias="0.2"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/recomendacionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Horariositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Recomendaciones: "
+        app:layout_constraintVertical_bias="0.2"
+        android:textSize="16dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
